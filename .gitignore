@@ -1,0 +1,27 @@
+# CLIOENT
+/client/node_modules
+/client/build
+/client/.env
+/client/package-lock.json
+/client/catalyst-debug.log
+
+# SERVER
+
+functions/*/node_modules
+functions/*/catalyst-debug.log
+functions/*/package-lock.json
+functions/*/.env
+
+server/node_modules
+server/catalyst-debug.log
+server/package-lock.json
+server/uploads
+server/.env
+server/uploads
+# GENERAL
+
+/catalyst-debug.log
+/build
+/node_modules
+/package-lock.json
+/*.tldr

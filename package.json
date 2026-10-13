@@ -1,0 +1,16 @@
+{
+  "name": "pappu-isdev-backend-setup",
+  "version": "1.0.1",
+  "description": "CLI tool to setup Catalyst AppSail watch mode with React Vite",
+  "main": "bin/index.js",
+  "bin": {
+    "pappu-isdev-backend-setup": "./bin/index.js"
+  },
+  "files": [
+    "bin",
+    "scripts"
+  ],
+  "dependencies": {
+    "fs-extra": "^11.4.1"
+  }
+}
