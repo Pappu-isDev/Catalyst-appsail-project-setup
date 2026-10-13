@@ -243,8 +243,6 @@ app.listen(port, () => {
             }
         };
         await fs.outputJson(path.join(targetDir, 'server', 'package.json'), serverPkg, { spaces: 2 });
-
-        // Clean catalyst.json without client-package.json reference
         const catalystJson = {
             "appsail": [
                 {
